@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./goimon.js"></script>
+    <style>
+        .menu{
+            background-image: url('drink.jpg');
+            width: 500px;
+
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="menu">
+            <p>Menu tự động</p>
+        Nước uống:<select name="" id="nuoc">
+            <option value=""></option>
+            <option value="Nước Suối">Nước suối</option>
+            <option value="COCA COLA">COCA COLA</option>
+            <option value="7 Up">7 Up</option>
+            <option value="Pessi">Pessi</option>
+            <option value="Cam ép">Cam ép</option>
+            <option value="Sting">Sting</option>
+            <option value="Bò Húc">Bò húc</option>
+        </select>
+        Trái cây: <select name="" id="traicay">
+                <option value=""></option>
+                <option value="Trái cây nhỏ">Trái cây nhỏ</option>
+                <option value="Trái cây lớn">Trái cây lớn</option>
+                <option value="Bưởi">Bưởi</option>
+        </select> <br><br>
+        Nhập số tiền của bạn: <input type="text" id="tien">
+        <br> <br>
+        <button id="thanhtoan" onclick="myfuction()">Thanh toán</button>
+        <p id="kq"></p>
+        </div>
+    
+    </center>
+    
+</body>
+</html>
